@@ -1,0 +1,27 @@
+:root {
+    padding: 0;
+    /* margin: 0; */
+}
+
+nav {
+    background-color: #8ECAE6;
+}
+
+ul {
+    margin-left: auto;
+}
+
+#home {
+    background-color: #FB8500;
+    margin-right: 1rem;
+}
+
+.list-items {   
+    margin-right: 1rem;
+}
+
+.copyright {
+    color: white;
+    background-color: black;
+    font-size: 0.7rem;
+} 
