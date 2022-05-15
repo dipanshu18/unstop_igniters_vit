@@ -41,7 +41,7 @@
                             <a class="nav-link" href="#">Blogs</a>
                         </li>
                     
-                        <li class="nav-item list-items">
+                        <li class="nav-item list-items" id="contact">
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
 
@@ -51,26 +51,19 @@
     </header>
     
     <!-- Introduction for Unstop -->
-    <section>
+    <div class="d-flex justify-content-center section-heading">
+        <h3>Unstop Igniter's Club VIT</h3>
+    </div>    
         
-        <div class="d-flex justify-content-center section-heading">
-            <h3>Unstop Igniter's Club VIT</h3>
-        </div>
+    <div class="d-flex justify-content-center">
+        <center>
+            <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </center>
+    </div>
 
-        <div class="d-flex justify-content-center">
-            <div class="section-intro">
-                <center>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </center>
-            </div>
-
-            <div class="d-flex flex-row-reverse">
-                <!-- <img class="sizing" src="/images/Team Work Illustration.png" height="150" width="125" alt="Team Work"> -->
-            </div>
-
-        </div>     
-        
-    </section>
+    <!-- <div class="d-flex flex-row-reverse"> -->
+        <!-- <img class="sizing" src="/images/Team Work Illustration.png" height="150" width="125" alt="Team Work"> -->
+    <!-- </div> -->
 
     <!-- Events Snippet -->
     <div>
@@ -86,35 +79,35 @@
         <div>
 
             <div class="row align-items-md-stretch events-content ">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="h-100 p-5 text-white bg-dark events-poster rounded-2 ">
                       <h2>Change the background</h2>
-                      <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="h-70 p-5 border rounded-2 events-bg">
                       <h2>Add borders</h2>
                       <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-                      <form action="/events.html">
-                        <button class="btn btn-outline-secondary" type="button">Register</button>
-                      </form>
+                      <a href="/register.html">
+                        <input class="btn btn-outline-secondary" type="button" value="Register">
+                      </a>
                     </div>
                 </div>
             </div>
 
             <div class="row align-items-md-stretch events-content">
-                <div class="col-md-6">
-                    <div class="h-100 p-5 text-white bg-dark events-poster rounded-2">
-                      <h2>Change the background</h2>
-                      <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="h-70 p-5 border rounded-2 events-bg">
                       <h2>Add borders</h2>
                       <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-                      <button class="btn btn-outline-secondary" type="button">Register</button>
+                      <a href="/register.html">
+                        <input class="btn btn-outline-secondary" type="button" value="Register">
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="h-100 p-5 text-white bg-dark events-poster rounded-2">
+                      <h2>Change the background</h2>
                     </div>
                 </div>
             </div>
@@ -122,9 +115,9 @@
         </div>
 
         <div class="d-flex justify-content-center button-position">
-            <form action="#">
+            <a href="/events.html">
                 <input class="btn btn-outline-secondary my-btn" type="button" value="Visit our Events page for more amazing upcoming events"> 
-            </form>
+            </a>
         </div>
         
     </div>
@@ -201,7 +194,7 @@
 
     <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top my-footer">
-        <h3>Follow us on</h3>
+        <h3>Follow us/ Reach out on</h3>
 
         <!-- Social Media Links -->
         <ul class="nav col-md-4 list-unstyled d-flex">
