@@ -12,12 +12,62 @@ ul {
 }
 
 #home {
-    background-color: #FB8500;
+    /* background-color: #FB8500; */
     margin-right: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-weight: bolder;
+    color: black;
 }
 
 .list-items {   
-    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+}
+
+.section-heading {
+    padding-top: 20px;
+}
+
+
+
+.section-intro {
+    padding-top: 10px;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+} 
+
+.sizing {
+    /* height: auto;
+    width: 100%; */
+    padding-bottom: 2rem;
+}
+
+.events-heading {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.button-position {
+    padding-top: 20px;
+}
+
+.testimonials-head {
+    padding-top: 40px;
+}
+
+.testimonials-content {
+    padding-top: 20px;
+}
+
+.btn-color {
+    background-color: #E1EFE6;
+    color: black;
+}
+
+.social-icons {
+    padding-right: 40px;
 }
 
 .copyright {
