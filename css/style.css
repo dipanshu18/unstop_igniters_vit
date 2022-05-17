@@ -1,7 +1,8 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+    all: unset;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 nav {
@@ -35,10 +36,11 @@ h3, h5 {
     padding-top: 20px;
 }
 
-
-
 .section-intro {
     padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* padding-left: 4rem;
     padding-right: 4rem; */
 } 
@@ -47,6 +49,10 @@ h3, h5 {
     /* height: auto;
     width: 100%; */
     padding-bottom: 2rem;
+}
+
+.events {
+    background-color: #8ECAE6;
 }
 
 .events-heading {
@@ -71,6 +77,29 @@ h3, h5 {
     background-color: #E1EFE6;
 }
 
+.button {
+    color: #FFFFFF;
+    background-color: #023047;
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    height: 3rem;
+    width: 7rem;
+    justify-content: center;
+    align-items: center;
+    transition: all, 0.3s;
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: #023047;
+    transform: rotate(5deg);
+}
+
 .button-position {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -78,6 +107,8 @@ h3, h5 {
 
 .my-btn {
     transition: ease-in, 0.7s;
+    height: 5rem;
+    width: auto;
 }
 
 .my-btn:hover {
@@ -88,9 +119,11 @@ h3, h5 {
     padding-top: 40px;
 }
 
-.testimonials-btn {
-    color: black;
+.testimonials-bg {
     background-color: #FB8500;
+    border-radius: 10px;
+    padding: 20px;
+
 }
 
 .testimonials-content {
@@ -99,7 +132,12 @@ h3, h5 {
 
 .btn-color {
     background-color: #E1EFE6;
-    color: black;
+    color: #023047;
+    transition: all, 0.5s;
+}
+
+.btn-color:hover {
+    transform: rotate(5deg);
 }
 
 .social-icons {
